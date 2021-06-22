@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MATIC-USDT LP',
     lpAddresses: {
       97: '',
-      137: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+      137: '0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827',
     },
     token: tokens.usdt,
     quoteToken: tokens.wmatic,
@@ -57,7 +57,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'ETH-MATIC LP',
     lpAddresses: {
       97: '',
-      137: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
+      137: '0xadbF1854e5883eB8aa7BAf50705338739e558E5b',
     },
     token: tokens.weth,
     quoteToken: tokens.wmatic,
@@ -67,7 +67,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'LINK-ETH LP',
     lpAddresses: {
       97: '',
-      137: '0x824eb9faDFb377394430d2744fa7C42916DE3eCe',
+      137: '0x5cA6CA6c3709E1E6CFe74a50Cf6B2B6BA2Dadd67',
     },
     token: tokens.link,
     quoteToken: tokens.weth,
@@ -77,7 +77,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT-USDC LP',
     lpAddresses: {
       97: '',
-      137: '0x7efaef62fddcca950418312c6c91aef321375a00',
+      137: '0x2cF7252e74036d1Da831d11089D326296e64a728',
     },
     token: tokens.usdt,
     quoteToken: tokens.usdc,
