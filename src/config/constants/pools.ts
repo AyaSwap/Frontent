@@ -17,7 +17,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
   },
   {
-    sousId: 1000,
+    sousId: 183,
     stakingToken: tokens.wmatic,
     earningToken: tokens.deko,
     contractAddress: {
@@ -26,9 +26,8 @@ const pools: PoolConfig[] = [
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
+    sortOrder: 999,
     tokenPerBlock: '0.1',
-    sortOrder: 2,
-    isFinished: true,
   },
 ]
 
