@@ -3,7 +3,7 @@ import { FarmConfig } from './types'
 
 const farms: FarmConfig[] = [
   {
-    pid: 1,
+    pid: 0,
     lpSymbol: 'DEKO-MATIC LP',
     lpAddresses: {
       97: '',
@@ -13,7 +13,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wmatic,
   },
   {
-    pid: 2,
+    pid: 1,
     lpSymbol: 'DEKO-USDT LP',
     lpAddresses: {
       97: '',
@@ -23,17 +23,17 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.usdt,
   },
   {
-    pid: 3,
-    lpSymbol: 'MATIC-USDT LP',
+    pid: 2,
+    lpSymbol: 'MATIC-USDC LP',
     lpAddresses: {
       97: '',
       137: '0x6e7a5FAFcec6BB1e78bAE2A1F0B612012BF14827',
     },
-    token: tokens.usdt,
+    token: tokens.usdc,
     quoteToken: tokens.wmatic,
   },
   {
-    pid: 4,
+    pid: 3,
     lpSymbol: 'DEKO-USDC LP',
     lpAddresses: {
       97: '',
@@ -43,7 +43,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.usdc,
   },
   {
-    pid: 5,
+    pid: 4,
     lpSymbol: 'DEKO-ETH LP',
     lpAddresses: {
       97: '',
@@ -53,7 +53,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.weth,
   },
   {
-    pid: 6,
+    pid: 5,
     lpSymbol: 'ETH-MATIC LP',
     lpAddresses: {
       97: '',
@@ -63,7 +63,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wmatic,
   },
   {
-    pid: 7,
+    pid: 6,
     lpSymbol: 'LINK-ETH LP',
     lpAddresses: {
       97: '',
@@ -73,7 +73,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.weth,
   },
   {
-    pid: 8,
+    pid: 7,
     lpSymbol: 'USDT-USDC LP',
     lpAddresses: {
       97: '',
