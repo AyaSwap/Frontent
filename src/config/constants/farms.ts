@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEKO-MATIC LP',
     lpAddresses: {
       97: '',
-      137: '0x704923893Eb29E989bB34f95cE57aC906613d907',
+      137: '0x1ea1ae8ee68d6cbe1cd4d668B7Ceb8cE0cA94f3C',
     },
     token: tokens.deko,
     quoteToken: tokens.wmatic,
