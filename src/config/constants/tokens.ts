@@ -1,5 +1,5 @@
 const tokens = {
-  bnb: {
+  matic: {
     symbol: 'MATIC',
     projectLink: 'https://www.matic.network/',
   },
