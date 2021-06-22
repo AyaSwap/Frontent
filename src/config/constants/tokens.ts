@@ -1,12 +1,12 @@
 const tokens = {
   bnb: {
-    symbol: 'BNB',
-    projectLink: 'https://www.binance.com/',
+    symbol: 'MATIC',
+    projectLink: 'https://www.matic.network/',
   },
   deko: {
     symbol: 'DEKO',
     address: {
-      56: '0x648259243F8a060c38B20dc16214cf0F928F49f1',
+      137: '0x648259243F8a060c38B20dc16214cf0F928F49f1',
       97: '',
     },
     decimals: 18,
@@ -15,7 +15,7 @@ const tokens = {
   btcb: {
     symbol: 'BTCB',
     address: {
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+      137: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
       97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
     },
     decimals: 18,
@@ -24,7 +24,7 @@ const tokens = {
   wbnb: {
     symbol: 'wBNB',
     address: {
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      137: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
       97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     },
     decimals: 18,
@@ -33,7 +33,7 @@ const tokens = {
   link: {
     symbol: 'LINK',
     address: {
-      56: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+      137: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
       97: '',
     },
     decimals: 18,
@@ -42,7 +42,7 @@ const tokens = {
   busd: {
     symbol: 'BUSD',
     address: {
-      56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+      137: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
       97: '',
     },
     decimals: 18,
@@ -51,7 +51,7 @@ const tokens = {
   eth: {
     symbol: 'ETH',
     address: {
-      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      137: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
       97: '',
     },
     decimals: 18,
@@ -60,7 +60,7 @@ const tokens = {
   usdc: {
     symbol: 'USDC',
     address: {
-      56: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
+      137: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
       97: '',
     },
     decimals: 18,
@@ -69,7 +69,7 @@ const tokens = {
   cake: {
     symbol: 'CAKE',
     address: {
-      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+      137: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
       97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
     },
     decimals: 18,
@@ -78,7 +78,7 @@ const tokens = {
   usdt: {
     symbol: 'USDT',
     address: {
-      97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+      137: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
       56: '0x55d398326f99059ff775485246999027b3197955',
     },
     decimals: 18,
@@ -88,7 +88,7 @@ const tokens = {
   tusd: {
     symbol: 'TUSD',
     address: {
-      56: '0x14016e85a25aeb13065688cafb43044c2ef86784',
+      137: '0x14016e85a25aeb13065688cafb43044c2ef86784',
       97: '',
     },
     decimals: 18,
@@ -97,7 +97,7 @@ const tokens = {
   ust: {
     symbol: 'UST',
     address: {
-      56: '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
+      137: '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
       97: '',
     },
     decimals: 18,
@@ -106,7 +106,7 @@ const tokens = {
   dai: {
     symbol: 'DAI',
     address: {
-      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+      137: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
       97: '',
     },
     decimals: 18,
@@ -116,7 +116,7 @@ const tokens = {
   ltc: {
     symbol: 'LTC',
     address: {
-      56: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
+      137: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
       97: '',
     },
     decimals: 18,
@@ -125,7 +125,7 @@ const tokens = {
   xrp: {
     symbol: 'XRP',
     address: {
-      56: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
+      137: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
       97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
     },
     decimals: 18,
@@ -134,7 +134,7 @@ const tokens = {
   uni: {
     symbol: 'UNI',
     address: {
-      56: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1',
+      137: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1',
       97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
     },
     decimals: 18,
@@ -143,7 +143,7 @@ const tokens = {
   vai: {
     symbol: 'VAI',
     address: {
-      56: '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7',
+      137: '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7',
       97: '',
     },
     decimals: 18,
@@ -152,7 +152,7 @@ const tokens = {
   doge: {
     symbol: 'DOGE',
     address: {
-      56: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
+      137: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
       97: '',
     },
     decimals: 8,
@@ -161,7 +161,7 @@ const tokens = {
   trx: {
     symbol: 'TRX',
     address: {
-      56: '0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b',
+      137: '0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b',
       97: '',
     },
     decimals: 18,
