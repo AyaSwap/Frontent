@@ -3,7 +3,7 @@ import { FarmConfig } from './types'
 
 const farms: FarmConfig[] = [
   {
-    pid: 0,
+    pid: 9,
     lpSymbol: 'DEKO-MATIC LP',
     lpAddresses: {
       97: '',
