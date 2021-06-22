@@ -4,7 +4,7 @@ import { FarmConfig } from './types'
 const farms: FarmConfig[] = [
   {
     pid: 1,
-    lpSymbol: 'DEKO-BNB LP',
+    lpSymbol: 'DEKO-MATIC LP',
     lpAddresses: {
       97: '',
       137: '0x704923893Eb29E989bB34f95cE57aC906613d907',
@@ -41,6 +41,16 @@ const farms: FarmConfig[] = [
     },
     token: tokens.deko,
     quoteToken: tokens.usdc,
+  },
+  {
+    pid: 8,
+    lpSymbol: 'DEKO-MATIC LP',
+    lpAddresses: {
+      97: '',
+      137: '0x704923893Eb29E989bB34f95cE57aC906613d907',
+    },
+    token: tokens.deko,
+    quoteToken: tokens.weth,
   },
   {
     pid: 5,
