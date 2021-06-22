@@ -44,7 +44,7 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 8,
-    lpSymbol: 'DEKO-MATIC LP',
+    lpSymbol: 'DEKO-ETH LP',
     lpAddresses: {
       97: '',
       137: '0x704923893Eb29E989bB34f95cE57aC906613d907',
