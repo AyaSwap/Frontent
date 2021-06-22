@@ -12,20 +12,11 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://dekofinance.live/',
   },
-  btcb: {
-    symbol: 'BTCB',
+  wmatic: {
+    symbol: 'wMATIC',
     address: {
-      137: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-      97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-    },
-    decimals: 18,
-    projectLink: 'https://bitcoin.org/',
-  },
-  wbnb: {
-    symbol: 'wBNB',
-    address: {
-      137: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-      97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+      137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
@@ -33,25 +24,16 @@ const tokens = {
   link: {
     symbol: 'LINK',
     address: {
-      137: '0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd',
+      137: '0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
       97: '',
     },
     decimals: 18,
     projectLink: 'https://chain.link/',
   },
-  busd: {
-    symbol: 'BUSD',
+  weth: {
+    symbol: 'WETH',
     address: {
-      137: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://www.paxos.com/busd/',
-  },
-  eth: {
-    symbol: 'ETH',
-    address: {
-      137: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+      137: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
       97: '',
     },
     decimals: 18,
@@ -60,113 +42,40 @@ const tokens = {
   usdc: {
     symbol: 'USDC',
     address: {
-      137: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
+      137: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
       97: '',
     },
     decimals: 18,
     projectLink: 'https://www.centre.io/usdc',
   },
-  cake: {
-    symbol: 'CAKE',
-    address: {
-      137: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
-    },
-    decimals: 18,
-    projectLink: 'https://pancakeswap.finance/',
-  },
   usdt: {
     symbol: 'USDT',
     address: {
-      137: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-      56: '0x55d398326f99059ff775485246999027b3197955',
+      137: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://tether.to/',
   },
-
-  tusd: {
-    symbol: 'TUSD',
-    address: {
-      137: '0x14016e85a25aeb13065688cafb43044c2ef86784',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://www.trueusd.com/',
-  },
-  ust: {
-    symbol: 'UST',
-    address: {
-      137: '0x23396cf899ca06c4472205fc903bdb4de249d6fc',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://mirror.finance/',
-  },
   dai: {
     symbol: 'DAI',
     address: {
-      137: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+      137: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
       97: '',
     },
     decimals: 18,
     projectLink: 'http://www.makerdao.com/',
   },
-
-  ltc: {
-    symbol: 'LTC',
-    address: {
-      137: '0x4338665cbb7b2485a8855a139b75d5e34ab0db94',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://litecoin.org/',
-  },
-  xrp: {
-    symbol: 'XRP',
-    address: {
-      137: '0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe',
-      97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
-    },
-    decimals: 18,
-    projectLink: 'https://ripple.com/xrp/',
-  },
   uni: {
     symbol: 'UNI',
     address: {
-      137: '0xbf5140a22578168fd562dccf235e5d43a02ce9b1',
-      97: '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
+      137: '0xb33EaAd8d922B1083446DC23f610c2567fB5180f',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://uniswap.org/',
   },
-  vai: {
-    symbol: 'VAI',
-    address: {
-      137: '0x4bd17003473389a42daf6a0a729f6fdb328bbbd7',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://venus.io/',
-  },
-  doge: {
-    symbol: 'DOGE',
-    address: {
-      137: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
-      97: '',
-    },
-    decimals: 8,
-    projectLink: 'https://dogecoin.com/',
-  },
-  trx: {
-    symbol: 'TRX',
-    address: {
-      137: '0x85eac5ac2f758618dfa09bdbe0cf174e7d574d5b',
-      97: '',
-    },
-    decimals: 18,
-    projectLink: 'https://tron.network/',
-  },
+  
 }
 
 export default tokens
