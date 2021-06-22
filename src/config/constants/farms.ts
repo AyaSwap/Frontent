@@ -17,7 +17,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEKO-USDT LP',
     lpAddresses: {
       97: '',
-      137: '0xC5dc3795B50750209e9b8ea0947b5371ce6e3574',
+      137: '0x11225831074F10Ea25486Df84B0f1c8DC4C96BE8',
     },
     token: tokens.deko,
     quoteToken: tokens.usdt,
@@ -37,23 +37,23 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEKO-USDC LP',
     lpAddresses: {
       97: '',
-      137: '0xB0EbFbf00707E2259525A1A546042bd109Cf7e6C',
+      137: '0x788a3A1c1A98e35716a8D8A52851dC30CBF709e6',
     },
     token: tokens.deko,
     quoteToken: tokens.usdc,
   },
   {
-    pid: 8,
+    pid: 5,
     lpSymbol: 'DEKO-ETH LP',
     lpAddresses: {
       97: '',
-      137: '0x704923893Eb29E989bB34f95cE57aC906613d907',
+      137: '0x7e6fAB5d9c736A5110476F5D2Ec898D318b1Cb0e',
     },
     token: tokens.deko,
     quoteToken: tokens.weth,
   },
   {
-    pid: 5,
+    pid: 6,
     lpSymbol: 'ETH-MATIC LP',
     lpAddresses: {
       97: '',
@@ -63,7 +63,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wmatic,
   },
   {
-    pid: 6,
+    pid: 7,
     lpSymbol: 'LINK-ETH LP',
     lpAddresses: {
       97: '',
@@ -73,7 +73,7 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.weth,
   },
   {
-    pid: 7,
+    pid: 8,
     lpSymbol: 'USDT-USDC LP',
     lpAddresses: {
       97: '',
