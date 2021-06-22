@@ -37,7 +37,7 @@ export const fetchPoolsBlockLimits = async () => {
 }
 
 export const fetchPools = async () => {
-  const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'BNB')
+  const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'MATIC')
   const calls = nonBnbPools.map((poolConfig) => {
     return {
       address: getMasterChefAddress(),
