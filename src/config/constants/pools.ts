@@ -16,19 +16,7 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
-  {
-    sousId: 183,
-    stakingToken: tokens.wmatic,
-    earningToken: tokens.deko,
-    contractAddress: {
-      97: '',
-      137: '0x55865E27b8f8018fEEbBEa0Fb410f60330f4DDEA',
-    },
-    poolCategory: PoolCategory.CORE,
-    harvest: true,
-    sortOrder: 999,
-    tokenPerBlock: '0.1',
-  },
+  
 ]
 
 export default pools
