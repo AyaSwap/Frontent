@@ -10,10 +10,10 @@ const initialState: PriceState = {
 
 // Thunks
 export const fetchPrices = createAsyncThunk<PriceApiThunk>('prices/fetch', async () => {
-  const response = await fetch('https://info.quickswap.exchange/tokens')
+  const response = await fetch('https://info.quickswap.exchange/token')
   const data = (await response.json()) as PriceApiResponse
 
-  const response2 = await fetch('https://info.quickswap.exchange/tokens')
+  const response2 = await fetch('https://info.quickswap.exchange/token')
   const data2 = (await response2.json()) as PriceApiResponse
 
   // Return normalized token names
