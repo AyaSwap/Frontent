@@ -4,7 +4,7 @@ import { Heading, Text, BaseLayout } from '@becoswap-libs/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
-import LotteryCard from 'views/Home/components/LotteryCard'
+import EarnAPRCard from 'views/Home/components/EarnAPRCard'
 import CakeStats from 'views/Home/components/CakeStats'
 import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
         <div>
           <Cards>
             <FarmStakingCard />
-            <LotteryCard />
+            <EarnAPRCard />
           </Cards>
           <Cards>
             <CakeStats />
