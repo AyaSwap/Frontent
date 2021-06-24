@@ -4,37 +4,31 @@ import { Heading, Text, BaseLayout } from '@becoswap-libs/uikit'
 import { useTranslation } from 'contexts/Localization'
 import Page from 'components/layout/Page'
 import FarmStakingCard from 'views/Home/components/FarmStakingCard'
+import LotteryCard from 'views/Home/components/LotteryCard'
 import CakeStats from 'views/Home/components/CakeStats'
 import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
-import EarnAPRCard from 'views/Home/components/EarnAPRCard'
-import EarnAssetCard from 'views/Home/components/EarnAssetCard'
-import WinCard from './components/WinCard'
 
 const Hero = styled.div`
+  background-image: url('/images/pan-bg.png');
+  -webkit-box-align: center;
   align-items: center;
-  background-image: url('/images/pan-bg-mobile.svg');
+  background-position: center center, center center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  box-shadow: rgb(146 146 146 / 35%) 0px 0px 0px 3000px inset;
   display: flex;
+  -webkit-box-pack: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto;
-  margin-bottom: 32px;
-  padding-top: 116px;
+  margin: auto auto 25px;
+  padding: 32px 16px;
   text-align: center;
-  ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/pan-bg2.svg'), url('/images/pan-bg.svg');
-    background-position: left center, right center;
-    height: 165px;
-    padding-top: 0;
-  }
 `
 
 const Cards = styled(BaseLayout)`
   align-items: stretch;
   justify-content: stretch;
-  margin-bottom: 24px;
-  grid-gap: 24px;
+  margin-bottom: 32px;
   & > div {
     grid-column: span 6;
     width: 100%;
@@ -45,31 +39,8 @@ const Cards = styled(BaseLayout)`
     }
   }
   ${({ theme }) => theme.mediaQueries.lg} {
-    margin-bottom: 32px;
-    grid-gap: 32px;
     & > div {
       grid-column: span 6;
-    }
-  }
-`
-
-const CTACards = styled(BaseLayout)`
-  align-items: start;
-  margin-bottom: 24px;
-  grid-gap: 24px;
-  & > div {
-    grid-column: span 6;
-  }
-  ${({ theme }) => theme.mediaQueries.sm} {
-    & > div {
-      grid-column: span 8;
-    }
-  }
-  ${({ theme }) => theme.mediaQueries.lg} {
-    margin-bottom: 32px;
-    grid-gap: 32px;
-    & > div {
-      grid-column: span 4;
     }
   }
 `
@@ -78,29 +49,27 @@ const Home: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <Page>
+    <div>
       <Hero>
-        <Heading as="h1" scale="xl" mb="24px" color="secondary">
-          {t('PancakeSwap')}
+        <Heading as="h1" size="xl" mb="24px" color="secondary">
+          {t('Deko Finance')}
         </Heading>
-        <Text>{t('The #1 AMM and yield farm on Binance Smart Chain.')}</Text>
+        <Text>{t('The Best High Yield Farm & AMM on Binance Smart Chain.')}</Text>
+        <Text>Farming & Stacking start block </Text><a href="https://bscscan.com/block/countdown/8677777">#8677777 </a>
       </Hero>
-      <div>
-        <Cards>
-          <FarmStakingCard />
-          
-        </Cards>
-        <CTACards>
-          <EarnAPRCard />
-          <EarnAssetCard />
-          <WinCard />
-        </CTACards>
-        <Cards>
-          <CakeStats />
-          <TotalValueLockedCard />
-        </Cards>
-      </div>
-    </Page>
+      <Page>
+        <div>
+          <Cards>
+            <FarmStakingCard />
+            <LotteryCard />
+          </Cards>
+          <Cards>
+            <CakeStats />
+            <TotalValueLockedCard />
+          </Cards>
+        </div>
+      </Page>
+    </div>
   )
 }
 
