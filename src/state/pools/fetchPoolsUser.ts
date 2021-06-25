@@ -9,8 +9,8 @@ import BigNumber from 'bignumber.js'
 
 // Pool 0, Cake / Cake is a different kind of contract (master chef)
 // MATIC pools use the native MATIC token (wrapping ? unwrapping is done at the contract level)
-const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'MATIC')
-const bnbPools = poolsConfig.filter((p) => p.stakingToken.symbol === 'MATIC')
+const nonBnbPools = poolsConfig.filter((p) => p.stakingToken.symbol !== 'BNB')
+const bnbPools = poolsConfig.filter((p) => p.stakingToken.symbol === 'BNB')
 const web3 = getWeb3NoAccount()
 const masterChefContract = new web3.eth.Contract(masterChefABI as unknown as AbiItem, getMasterChefAddress())
 
