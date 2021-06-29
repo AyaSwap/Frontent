@@ -16,19 +16,21 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
-  {
-    sousId: 100,
-    stakingToken: tokens.wmatic,
-    earningToken: tokens.deko,
+  
+    {
+    sousId: 1,
+    stakingToken: tokens.deko,
+    earningToken: tokens.wmatic,
     contractAddress: {
       97: '',
-      137: '0xe2fcfadc9502f6fe7f2188fe5320edf8f5ab2e2e',
+      56: '0xe2fcfadc9502f6fe7f2188fe5320edf8f5ab2e2e',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
+    sortOrder: 999,
     tokenPerBlock: '0.1',
-    sortOrder: 2,
-    isFinished: false,
+    isFinished: true,
+    enableEmergencyWithdraw: true,
   },
   
 ]
