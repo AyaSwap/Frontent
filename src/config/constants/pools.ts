@@ -23,7 +23,7 @@ const pools: PoolConfig[] = [
     earningToken: tokens.wmatic,
     contractAddress: {
       97: '',
-      56: '0xe2fcfadc9502f6fe7f2188fe5320edf8f5ab2e2e',
+      137: '0xe2fcfadc9502f6fe7f2188fe5320edf8f5ab2e2e',
     },
     poolCategory: PoolCategory.CORE,
     harvest: true,
