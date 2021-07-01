@@ -3,7 +3,7 @@ import { PoolConfig, PoolCategory } from './types'
 
 const pools: PoolConfig[] = [
   {
-    sousId: 0,
+    sousId: 8,
     stakingToken: tokens.deko,
     earningToken: tokens.deko,
     contractAddress: {
@@ -18,7 +18,7 @@ const pools: PoolConfig[] = [
   },
   
     {
-    sousId: 1,
+    sousId: 9,
     stakingToken: tokens.deko,
     earningToken: tokens.wmatic,
     contractAddress: {
