@@ -18,7 +18,7 @@ const pools: PoolConfig[] = [
   },
   
     {
-    sousId: 9,
+    sousId: 200,
     stakingToken: tokens.wmatic,
     earningToken: tokens.deko,
     contractAddress: {
